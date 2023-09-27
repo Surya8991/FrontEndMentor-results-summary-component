@@ -16,7 +16,7 @@ body {
 }
 
 /* Main container */
-.main {
+main {
     margin: 200px auto 20px;
     display: flex;
     justify-content: center;
