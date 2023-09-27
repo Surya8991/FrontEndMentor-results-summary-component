@@ -94,6 +94,8 @@ body {
 
 /* Adjust individual score elements if needed */
 .sum-score {
+    color: black;
+    font-weight: 600;
     margin: 10px;
     padding: 15px;
 }
@@ -106,24 +108,31 @@ body {
     color: hsl(224, 30%, 27%);
 }
 .sum-report-reaction{
+    color: hsl(0, 100%, 67%);
     background-color: hsla(0, 100%, 67%,10%);
     margin: 5px 40px;
     border-radius: 5px;
 }
 .sum-report-memory{
+    color: hsl(39, 100%, 56%);
     background-color: hsla(39, 100%, 56%,10%);
     margin: 5px 40px;
     border-radius: 5px;
 }
 .sum-report-verbal{
+    color: hsl(166, 100%, 37%);
     background-color: hsla(166, 100%, 37%,10%);
     margin: 5px 40px;
     border-radius: 5px;
 }
 .sum-report-visual{
+    color: hsl(234, 85%, 45%);
     background-color: hsla(234, 85%, 45%,10%);
     margin: 5px 40px;
     border-radius: 5px;
+}
+.sum-max-no{
+    color: hsl(224, 30%, 27%,70%);
 }
 /* Continue button styles */
 .continue {
